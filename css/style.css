@@ -12,10 +12,29 @@
     margin: 15px 0;
 }
 
+.footer-container {
+    height: 20px;
+    line-height: 20px;
+    border: 1px dashed black;
+    margin: 10px 0 30px 0;
+}
+
 .section {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inline {
+    flex: auto;
+    height: 100%;
 }
 
 .small-container {
@@ -45,14 +64,23 @@
     width: 900px;
 }
 
-.inline {
-    flex: auto;
-}
-
 /* tag */
-nav {
+header > nav {
     text-align: center;
     width: 500px;
+}
+
+footer > nav {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 15px 0;
+    width: 900px;
+    background-color: #73ebd0;
+}
+
+hr {
+    color: white;
 }
 
 /* header */
@@ -63,6 +91,18 @@ nav {
 
 .header-login {
     text-align: right;
+}
+
+/* footer */
+.footer-container {
+    width: 70%;
+}
+
+.elementi-footer {
+    background-color: #fbb9c5;
+    text-align: center;
+    padding: 3px;
+    border: 1px dashed black;
 }
 
 /* colori */
@@ -90,18 +130,18 @@ nav {
     background-color: #f592ef;
 }
 
-.blue {
+.darkblue {
     background-color: blue;
 }
 
-.cyan {
+.blue {
     background-color: #148bfe;
 
     width: 60%;
     height: 100%;
 }
 
-.light-pink {
+.lightpink {
     background-color: pink;
 
     width: 40%;
@@ -110,4 +150,17 @@ nav {
 
 .green {
     background-color: green;
+}
+
+.darkpink {
+    background-color: pink;
+
+    width: 30%;
+    height: 100%;
+}
+
+.footer-blue {
+    background-color: #14a1a9;
+
+    width: 15%;
 }
