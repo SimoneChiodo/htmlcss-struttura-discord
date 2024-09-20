@@ -9,7 +9,6 @@
     height: 20px;
     line-height: 20px;
     border: 1px dashed black;
-    padding: 10px;
     margin: 15px 0;
 }
 
@@ -23,9 +22,31 @@
     height: 400px;
 }
 
+.medium-container {
+    height: 500px;
+}
+
+.big-container {
+    height: 900px;
+}
+
 .small {
     height: 300px;
     width: 700px;
+}
+
+.medium {
+    height: 400px;
+    width: 900px;
+}
+
+.big {
+    height: 800px;
+    width: 900px;
+}
+
+.inline {
+    flex: auto;
 }
 
 /* tag */
@@ -52,6 +73,16 @@ nav {
 
 .yellow {
     background-color: #dfa31d;
+    padding: 10px;
+}
+
+.gray {
+    background-color: gray;
+    padding: 10px;
+}
+
+.black {
+    background-color: #23272a;
 }
 
 /* rettangoli */
@@ -61,4 +92,22 @@ nav {
 
 .blue {
     background-color: blue;
+}
+
+.cyan {
+    background-color: #148bfe;
+
+    width: 60%;
+    height: 100%;
+}
+
+.light-pink {
+    background-color: pink;
+
+    width: 40%;
+    height: 100%;
+}
+
+.green {
+    background-color: green;
 }
